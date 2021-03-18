@@ -1,13 +1,14 @@
 import React from 'react'
-
+import {Link} from 'gatsby'
+import './navbar.module.css'
 const Navbar=()=>{
 
 
     return(
-    <div>
-         <link to="/">Home</link>
-          <link to="./about">About</link>
-          <link to="./Contact">Contact</link>
+    <div  className='nav'>
+         <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
     </div>
     )
 }

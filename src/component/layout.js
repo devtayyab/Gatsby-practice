@@ -1,11 +1,12 @@
 import React from 'react'
 import Navbar from './navbar'
-const Layout=({children})=>{
+import Footer from './footer'
+const Layout=(props)=>{
 return(
     <div>
         <Navbar></Navbar>
-        {children}
-        
+        {props.children}
+        <Footer></Footer>
     </div>
 )
 

@@ -1,12 +1,12 @@
 import React from 'react'
-
+import Layout from '../component/layout'
 const About=()=>{
 
 
     return(
-    <div>
+    <Layout>
             <p>This is about page</p>
-    </div>
+    </Layout>
     )
 }
 export default About
