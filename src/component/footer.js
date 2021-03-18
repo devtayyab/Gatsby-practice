@@ -1,11 +1,11 @@
 import React from 'react'
-
+import * as styles from './footer.module.css'
 const Footer=()=>{
 
 
     return(
-    <div>
-        <p>20@ Copyright by me</p>
+    <div className={styles.footer}>
+        <p className={styles.text}>20@ Copyright by me</p>
     </div>
     )
 }

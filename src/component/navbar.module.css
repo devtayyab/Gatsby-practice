@@ -1,7 +1,17 @@
-.nav{
+.navba {
 background-color: black;
 
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+   
+    top: 0px;
+    left: 0;
+    right: 0;
+
 }
-.nav link{
-    display: flex;
+.text{
+    color:beige;
+    align-self: center;
 }
